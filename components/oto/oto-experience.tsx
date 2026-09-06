@@ -24,7 +24,7 @@ const faqs = [
 ]
 
 function Section({ children, className = '', id }: { children: React.ReactNode; className?: string; id?: string }) {
-  return <section id={id} className={`mx-auto w-full max-w-2xl px-5 py-16 sm:py-24 ${className}`}>{children}</section>
+  return <section id={id} className={`mx-auto w-full max-w-2xl px-5 py-9 sm:py-14 ${className}`}>{children}</section>
 }
 
 function PrimaryCta({ children, scrollTo = 'oferta' }: { children: React.ReactNode; scrollTo?: string }) {

@@ -16,7 +16,7 @@ export function Section({
     <section
       id={id}
       className={cn(
-        'px-4 py-14 sm:py-20',
+        'px-4 py-9 sm:py-14',
         tone === 'muted' && 'bg-secondary',
         tone === 'dark' && 'bg-foreground text-background',
         className,
